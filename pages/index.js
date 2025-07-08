@@ -36,9 +36,16 @@ export default function Home() {
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Download Resume</button>
             </a>
-            <a href="mailto:anushkam251@gmail.com">
-              <button className="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-800">Contact Me</button>
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=anushkam251@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-800">
+                Contact Me
+              </button>
             </a>
+
             <button onClick={toggleDark} className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700">
               {darkMode ? "Light Mode" : "Dark Mode"}
             </button>
