@@ -32,11 +32,6 @@ This is my personal frontend developer portfolio built using **Next.js** and **T
 > _(Optional: Add a screenshot or screen recording of your site)_
 
 ---
-## 📜 License
-
-This project is intended for personal use, inspiration, and learning.  
-Feel free to fork it and adapt it for your own portfolio.  
-No commercial use without permission.
 
 ## 📂 Getting Started (for local development)
 
