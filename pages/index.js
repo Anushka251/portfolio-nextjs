@@ -62,19 +62,19 @@ export default function Home() {
             </div>
           ))}
         </div>
+          <div className="mt-12 text-center">
+            <a
+              href="https://github.com/Anushka251"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-800 transition">
+                View My GitHub
+              </button>
+            </a>
+          </div>
 
-        <div className="mt-12 text-center">
-          <a
-            href="https://mail.google.com/mail/?view=cm&to=anushkam251@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-800">
-              Contact Me
-            </button>
-          </a>
-
-        </div>
+      
       </main>
     </div>
   );
